@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   
   spec.swift_versions = "4.0"
 
-  spec.source       = { :git => "https://github.com/LobnaShaheen/LobnaFramework.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/LobnaShaheen/LobnaFramework.git", :tag => "1.1.0" }
 
   spec.source_files  = "LobnaFramework", "LobnaFramework/**/**.{h,m,swift}"
 
