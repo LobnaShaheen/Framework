@@ -17,7 +17,7 @@ public class Service{
     }
     
     public static func noParam() -> String{
-        return "Welcome to WaffarX"
+        return "Welcome to "
     }
     
 }
