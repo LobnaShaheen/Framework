@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
   spec.description  = "This is a description for LobnaFramework creation"
 
-  spec.homepage     = "https://github.com/LobnaShaheen/LobnaFramework"
+  spec.homepage     = "https://github.com/LobnaShaheen/Framework"
 
   spec.license      = "MIT"
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   
   spec.swift_versions = "4.0"
 
-  spec.source       = { :git => "https://github.com/LobnaShaheen/LobnaFramework.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/LobnaShaheen/Framework.git", :tag => "1.0.0" }
 
   spec.source_files  = "LobnaFramework", "LobnaFramework/**/**.{h,m,swift}"
 
