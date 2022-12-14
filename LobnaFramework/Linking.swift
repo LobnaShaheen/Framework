@@ -36,7 +36,8 @@ class Linking {
     public func endShoppingTrip(){
         let shoppintTripID = defaults.integer(forKey: "ShoppintTripID")
         let shoppingTripDate = defaults.object(forKey: "ShoppingTripDate") as! Date
-        
+        print(shoppintTripID)
+        print(shoppingTripDate)
         // MARK: CALL API HERE
     }
 }
