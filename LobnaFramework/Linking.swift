@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Linking {
+public class Linking {
     private let defaults = UserDefaults.standard
     
     public init(){}
