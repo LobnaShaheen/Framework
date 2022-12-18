@@ -22,7 +22,6 @@ public class Linking {
             queryItems[item.name] = item.value?.removingPercentEncoding
             if(item.name == "shoppingTrip")
             {
-                print(queryItems[item.name]!)
                 defaults.set(queryItems[item.name]!, forKey: "ShoppintTripID")
                 
             }
