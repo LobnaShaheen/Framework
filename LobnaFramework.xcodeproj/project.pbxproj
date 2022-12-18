@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		BC68C5E828F47E38009ED0DE /* LobnaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68C5E728F47E38009ED0DE /* LobnaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC68C5EF28F47E44009ED0DE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC68C5EE28F47E44009ED0DE /* Service.swift */; };
+		BCD9CE50294F4425001C17A7 /* Linking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD9CE4F294F4425001C17A7 /* Linking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC68C5E428F47E38009ED0DE /* LobnaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LobnaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC68C5E728F47E38009ED0DE /* LobnaFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LobnaFramework.h; sourceTree = "<group>"; };
 		BC68C5EE28F47E44009ED0DE /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		BCD9CE4F294F4425001C17A7 /* Linking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			children = (
 				BC68C5E728F47E38009ED0DE /* LobnaFramework.h */,
 				BC68C5EE28F47E44009ED0DE /* Service.swift */,
+				BCD9CE4F294F4425001C17A7 /* Linking.swift */,
 			);
 			path = LobnaFramework;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD9CE50294F4425001C17A7 /* Linking.swift in Sources */,
 				BC68C5EF28F47E44009ED0DE /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

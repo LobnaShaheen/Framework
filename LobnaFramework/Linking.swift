@@ -10,7 +10,7 @@ import Foundation
 public class Linking {
     private let defaults = UserDefaults.standard
     
-    public init(){}
+    private init(){}
     
     public func saveShoppingTrip(url: URL){
         guard let urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: true) else {
